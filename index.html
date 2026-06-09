@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Vedika Jadhav, a Diploma Computer Engineering student focused on software development, Python, AI, and machine learning.">
+    <meta name="keywords" content="Vedika Jadhav, Computer Engineering, Portfolio, Python, AI, Machine Learning, Web Development">
+    <meta name="author" content="Vedika Jadhav">
+    <title>Vedika Jadhav | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="#home" class="brand">Vedika<span>.</span></a>
+            <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" type="button" aria-label="Toggle dark and light mode">Dark</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home" aria-labelledby="hero-title">
+            <div class="hero-content reveal">
+                <p class="eyebrow">3rd Year Diploma Computer Engineering Student</p>
+                <h1 id="hero-title">Vedika Jadhav</h1>
+                <h2><span id="typed-text"></span><span class="cursor" aria-hidden="true">|</span></h2>
+                <p class="hero-intro">
+                    I am a passionate Computer Engineering diploma student interested in Software Development,
+                    Python Programming, Artificial Intelligence, and Machine Learning. I enjoy building useful
+                    software solutions that solve real-world problems.
+                </p>
+                <div class="hero-actions">
+                    <a href="resume.pdf" class="btn primary" download>Download Resume</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="profile-card" aria-label="Professional profile image placeholder">
+                    <div class="profile-frame">
+                        <div class="profile-avatar">
+                            <span>VJ</span>
+                        </div>
+                    </div>
+                    <div class="profile-meta">
+                        <strong>Future Software Engineer</strong>
+                        <span>AI & ML Enthusiast</span>
+                    </div>
+                    <div class="hero-stats" aria-label="Portfolio highlights">
+                        <div><strong>5+</strong><span>Projects</span></div>
+                        <div><strong>10</strong><span>Skills</span></div>
+                        <div><strong>3rd</strong><span>Year</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <div class="section-heading reveal">
+                <p class="eyebrow">About Me</p>
+                <h2 id="about-title">Learning, building, and growing with technology</h2>
+            </div>
+            <div class="about-grid">
+                <article class="glass-panel reveal">
+                    <p>
+                        I am developing strong foundations in programming, web development, database systems,
+                        artificial intelligence, and machine learning. My goal is to build clean, reliable,
+                        and meaningful software that helps people work smarter.
+                    </p>
+                    <p>
+                        I enjoy exploring new tools, practicing problem solving, and turning ideas into useful
+                        mini projects while preparing for a career as a Software Engineer and AI Developer.
+                    </p>
+                </article>
+                <div class="info-grid reveal">
+                    <div><span>Name</span><strong>Vedika Jadhav</strong></div>
+                    <div><span>Education</span><strong>Diploma in Computer Engineering (3rd Year)</strong></div>
+                    <div><span>Location</span><strong>Maharashtra, India</strong></div>
+                    <div><span>Career Goal</span><strong>Software Engineer and AI Developer</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills" aria-labelledby="skills-title">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Skills</p>
+                <h2 id="skills-title">Technical toolkit</h2>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card reveal" data-level="90"><h3>HTML</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="88"><h3>CSS</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="76"><h3>JavaScript</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="84"><h3>Python</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="72"><h3>Java</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="78"><h3>C Programming</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="74"><h3>SQL</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="70"><h3>Artificial Intelligence</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="68"><h3>Machine Learning</h3><div class="progress"><span></span></div></article>
+                <article class="skill-card reveal" data-level="80"><h3>Git & GitHub</h3><div class="progress"><span></span></div></article>
+            </div>
+        </section>
+
+        <section class="section education" id="education" aria-labelledby="education-title">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Education</p>
+                <h2 id="education-title">Academic journey</h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item reveal">
+                    <span class="timeline-dot"></span>
+                    <h3>SSC</h3>
+                    <p>Completed secondary school education with a strong interest in science and technology.</p>
+                </article>
+                <article class="timeline-item reveal">
+                    <span class="timeline-dot"></span>
+                    <h3>Diploma in Computer Engineering</h3>
+                    <p>Currently studying in 3rd Year and building practical skills in programming and software systems.</p>
+                </article>
+                <article class="timeline-item reveal">
+                    <span class="timeline-dot"></span>
+                    <h3>Future Goal</h3>
+                    <p>Pursue B.Tech and grow into a skilled Software Engineer with expertise in AI development.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects" aria-labelledby="projects-title">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Projects</p>
+                <h2 id="projects-title">Selected work</h2>
+            </div>
+            <div class="project-grid">
+                <article class="project-card reveal">
+                    <div class="project-image">AI</div>
+                    <div class="project-body">
+                        <h3>AI Health Assistant</h3>
+                        <p>A smart assistant concept that helps users understand symptoms and get basic health guidance.</p>
+                        <span>Python / AI / ML</span>
+                        <div class="card-actions"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image">SMS</div>
+                    <div class="project-body">
+                        <h3>Student Management System</h3>
+                        <p>A system for managing student records, courses, attendance, and academic information.</p>
+                        <span>Java / SQL</span>
+                        <div class="card-actions"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image">ATM</div>
+                    <div class="project-body">
+                        <h3>ATM Simulation System</h3>
+                        <p>A console-based banking simulation with balance check, withdrawal, deposit, and PIN validation.</p>
+                        <span>C / Logic Building</span>
+                        <div class="card-actions"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image">WEB</div>
+                    <div class="project-body">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive personal portfolio built to present skills, education, projects, and contact details.</p>
+                        <span>HTML / CSS / JavaScript</span>
+                        <div class="card-actions"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image">LIB</div>
+                    <div class="project-body">
+                        <h3>Library Management System</h3>
+                        <p>A database-driven project for tracking books, members, issue dates, and returns.</p>
+                        <span>Python / SQL</span>
+                        <div class="card-actions"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section split-section" id="certifications" aria-labelledby="cert-title">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Certifications</p>
+                <h2 id="cert-title">Learning milestones</h2>
+            </div>
+            <div class="compact-grid">
+                <article class="mini-card reveal">Python Programming</article>
+                <article class="mini-card reveal">Web Development</article>
+                <article class="mini-card reveal">AI Fundamentals</article>
+                <article class="mini-card reveal">Java Programming</article>
+            </div>
+        </section>
+
+        <section class="section achievements" id="achievements" aria-labelledby="achievements-title">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Achievements</p>
+                <h2 id="achievements-title">Practice and participation</h2>
+            </div>
+            <div class="compact-grid">
+                <article class="mini-card reveal">Programming Practice</article>
+                <article class="mini-card reveal">Technical Workshops</article>
+                <article class="mini-card reveal">Mini Projects</article>
+                <article class="mini-card reveal">Hackathons Participation</article>
+            </div>
+        </section>
+
+        <section class="section resume" id="resume" aria-labelledby="resume-title">
+            <div class="resume-panel reveal">
+                <p class="eyebrow">Resume</p>
+                <h2 id="resume-title">Download professional resume</h2>
+                <p>View Vedika's education, technical skills, project work, and career objective in one concise document.</p>
+                <a href="resume.pdf" class="btn primary" download>Download Resume</a>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Contact</p>
+                <h2 id="contact-title">Let's connect</h2>
+            </div>
+            <div class="contact-grid">
+                <form class="contact-form glass-panel reveal" novalidate>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Project or opportunity" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                    <p class="form-message" aria-live="polite"></p>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+                <aside class="contact-info reveal">
+                    <div class="glass-panel">
+                        <h3>Contact Information</h3>
+                        <p><strong>Email:</strong> vedika.email@example.com</p>
+                        <p><strong>Phone:</strong> +91 00000 00000</p>
+                        <p><strong>Location:</strong> Maharashtra, India</p>
+                    </div>
+                    <div class="social-links" aria-label="Social media links">
+                        <a href="#" aria-label="GitHub">GH</a>
+                        <a href="#" aria-label="LinkedIn">IN</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="mailto:vedika.email@example.com" aria-label="Email">@</a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">&uarr;</button>
+
+    <footer class="footer">
+        <p>&copy; 2026 Vedika Jadhav. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
